@@ -22,7 +22,7 @@ class Company:
         self.boss = boss
         self.employee = employee
 
-p1 = Person('Anuel', 55)
+p1 = Person('Anuelbr', 55)
 p2 = Person('Paul', 25)
 
 company = Company(p1,p2)
