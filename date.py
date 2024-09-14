@@ -31,8 +31,8 @@ print("it's {}th minute of the {}th hour of the {}th day of the {}th month".form
     now.month
 ))
 
-chernobyl = datetime.fromisoformat("1986-04-26 01:23:40:000+04:00")
-print(chernobyl.strftime("The Chernobyl disaster occurred on %A %dth %B of %Y at %X in the %Z timezone"))
+something = datetime.fromisoformat("1986-04-26 01:23:40:000+04:00")
+print(something.strftime("Something occurred on %A %dth %B of %Y at %X in the %Z timezone"))
 
 my_time = time(11, 22, 34)
 print(my_time)
